@@ -1,0 +1,41 @@
+# 忽略文件
+
+# 依赖
+/vendor/
+/node_modules/
+
+# 运行时
+/runtime/
+*.log
+
+# 环境配置（包含敏感信息）
+/.env
+config/database.php
+config/payment.php
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 前端编译产物
+frontend/dist/
+frontend/unpackage/
+
+# 前端依赖
+frontend/node_modules/
+
+# 临时文件
+*.tmp
+*.temp
+uploads/
+cache/
+
+# 数据库备份（可选）
+*.sql.backup
